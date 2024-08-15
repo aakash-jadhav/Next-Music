@@ -1,5 +1,6 @@
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
+import ContactForm from "@/components/ContactForm";
 export default function page() {
   return (
     <div className="min-h-screen bg-gray-900 py-12 pt-36">
@@ -12,6 +13,7 @@ export default function page() {
         journey.
       </p>
       <Meteors number={20} />
+      <ContactForm />
     </div>
   );
 }
