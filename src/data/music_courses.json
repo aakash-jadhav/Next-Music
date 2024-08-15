@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "Guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano Basics",
+      "slug": "piano-basics",
+      "description": "Master the fundamentals of piano playing",
+      "price": 129.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Vocal Training",
+      "slug": "vocal-training",
+      "description": "Improve your singing voice with professional guidance",
+      "price": 79.99,
+      "instructor": "Michael Johnson",
+      "isFeatured": true,
+      "image": "/courses/vocalist.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Drumming for Beginners",
+      "slug": "drumming-beginners",
+      "description": "Learn the basics of drumming and rhythm",
+      "price": 89.99,
+      "instructor": "Emily Brown",
+      "isFeatured": false,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Violin Mastery",
+      "slug": "violin-mastery",
+      "description": "Become a violin virtuoso with our advanced course",
+      "price": 199.99,
+      "instructor": "David Lee",
+      "isFeatured": true,
+      "image": "/courses/jazz.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Understand the building blocks of music",
+      "price": 49.99,
+      "instructor": "Sarah Kim",
+      "isFeatured": false,
+      "image": "/courses/classical-music.jpg"
+    }
+  ]
+}
