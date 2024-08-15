@@ -7,13 +7,12 @@ export default function page() {
         events. Reach out and let us know how we can assist you in your musical
         journey.`;
   return (
-    <div className="min-h-screen bg-gray-900 py-12 pt-36 w-full">
-      <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+    <div className="min-h-screen bg-black py-12 pt-36 min-w-full overflow-hidden relative px-4">
+      <h1 className="text-3xl md:text-7xl text-center font-sans font-bold mb-8 text-white">
         Contact Us
       </h1>
-      {/* <p className="mt-4 font-normal text-base md:text-lg  max-w-lg mx-auto text-center text-gray-400">
-      </p> */}
-      <div className="max-w-md mx-auto text-center">
+
+      <div className="max-w-xl mx-auto text-center mb-8">
         <TextGenerateEffect duration={0.3} filter={false} words={words} />
       </div>
 

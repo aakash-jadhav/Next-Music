@@ -16,7 +16,7 @@ export default function ContactForm() {
         placeholder="Your message"
         rows={5}
       ></textarea>
-      <button className="px-8 mt-4 py-2 rounded-md bg-teal-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+      <button className="px-8 mt-4 py-2 w-full sm:w-[40%] rounded-md bg-teal-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
         Send Message
       </button>
     </div>
