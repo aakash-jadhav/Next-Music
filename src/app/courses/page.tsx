@@ -9,9 +9,13 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
-      <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-        All courses ({courseData.courses.length})
+      <h1 className="text-lg md:text-7xl text-center font-sans font-bold  text-white">
+        All courses{" "}
+        <span className="text-blue-500 dark:text-blue-500">
+          ({courseData.courses.length})
+        </span>
       </h1>
+
       <div className="flex flex-wrap justify-center">
         {courseData.courses.map((course) => (
           <CardContainer className="inter-var m-4">
